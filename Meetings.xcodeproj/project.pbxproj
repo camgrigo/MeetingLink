@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C15C633C281F486900648E5D /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C633B281F486900648E5D /* CallButton.swift */; };
+		C15C633D281F486900648E5D /* CallButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C633B281F486900648E5D /* CallButton.swift */; };
 		C1E2638A27FF55720093A66E /* Meetings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */; };
 		C1E2638B27FF55720093A66E /* Meetings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */; };
 		C1E2638C27FF55720093A66E /* MeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637927FF55710093A66E /* MeetingsApp.swift */; };
@@ -20,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C15C633B281F486900648E5D /* CallButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButton.swift; sourceTree = "<group>"; };
 		C1E2637827FF55710093A66E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		C1E2637927FF55710093A66E /* MeetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsApp.swift; sourceTree = "<group>"; };
 		C1E2637A27FF55710093A66E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		C1E2638127FF55720093A66E /* Meetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E2638727FF55720093A66E /* Meetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E2638927FF55720093A66E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C1E2639C27FF5A0C0093A66E /* Meetings--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Meetings--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		C1E2637127FF55710093A66E = {
 			isa = PBXGroup;
 			children = (
+				C1E2639C27FF5A0C0093A66E /* Meetings--iOS--Info.plist */,
 				C1E2637627FF55710093A66E /* Shared */,
 				C1E2638827FF55720093A66E /* macOS */,
 				C1E2638227FF55720093A66E /* Products */,
@@ -62,6 +67,7 @@
 			children = (
 				C1E2637927FF55710093A66E /* MeetingsApp.swift */,
 				C1E2637A27FF55710093A66E /* ContentView.swift */,
+				C15C633B281F486900648E5D /* CallButton.swift */,
 				C1E2637B27FF55710093A66E /* Persistence.swift */,
 				C1E2637C27FF55720093A66E /* Assets.xcassets */,
 				C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */,
@@ -188,6 +194,7 @@
 				C1E2639027FF55720093A66E /* Persistence.swift in Sources */,
 				C1E2638C27FF55720093A66E /* MeetingsApp.swift in Sources */,
 				C1E2638E27FF55720093A66E /* ContentView.swift in Sources */,
+				C15C633C281F486900648E5D /* CallButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +206,7 @@
 				C1E2639127FF55720093A66E /* Persistence.swift in Sources */,
 				C1E2638D27FF55720093A66E /* MeetingsApp.swift in Sources */,
 				C1E2638F27FF55720093A66E /* ContentView.swift in Sources */,
+				C15C633D281F486900648E5D /* CallButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -307,6 +316,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -324,6 +334,7 @@
 				DEVELOPMENT_TEAM = 82239ZX62H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meetings--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -354,6 +365,7 @@
 				DEVELOPMENT_TEAM = 82239ZX62H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meetings--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -384,10 +396,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82239ZX62H;
+				DEVELOPMENT_TEAM = SYPHAMSPW3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,10 +425,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 82239ZX62H;
+				DEVELOPMENT_TEAM = SYPHAMSPW3;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
