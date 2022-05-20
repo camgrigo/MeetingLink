@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F5048e" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22213.2" systemVersion="23A5301g" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
     <entity name="Meeting" representedClassName="Meeting" syncable="YES" codeGenerationType="class">
         <attribute name="id" attributeType="String" defaultValueString=""/>
+        <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="passcode" attributeType="String" defaultValueString=""/>
         <attribute name="urlString" attributeType="String" defaultValueString=""/>
     </entity>
     <entity name="Settings" representedClassName="Settings" syncable="YES" codeGenerationType="class">
         <attribute name="autoOpenMeetingID" optional="YES" attributeType="String"/>
     </entity>
-    <elements>
-        <element name="Meeting" positionX="-63" positionY="-18" width="128" height="74"/>
-        <element name="Settings" positionX="-63" positionY="9" width="128" height="44"/>
-    </elements>
 </model>
