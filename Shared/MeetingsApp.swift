@@ -6,24 +6,29 @@
 //
 
 import SwiftUI
-
-struct AppURL {
-    static let zoom = URL(string: "zoomus://")!
-}
+import SwiftData
 
 @main
-struct MeetingsApp: App {
-    
-    let persistenceController = PersistenceController.shared
+struct MeetingLinkApp: App {
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([
+            ZoomMeeting.self,
+        ])
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+
+        do {
+            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+        } catch {
+            fatalError("Could not create ModelContainer: \(error)")
+        }
+    }()
 
     var body: some Scene {
         WindowGroup {
-            NavigationView {
+            NavigationStack {
                 MeetingsView()
-                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
             }
-            .navigationViewStyle(.stack)
         }
+        .modelContainer(sharedModelContainer)
     }
-    
 }

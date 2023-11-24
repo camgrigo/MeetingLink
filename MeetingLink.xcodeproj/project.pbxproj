@@ -7,32 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C12746512A889EBC00F200CC /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12746502A889EBC00F200CC /* MeetingsView.swift */; };
-		C12746522A889EBC00F200CC /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12746502A889EBC00F200CC /* MeetingsView.swift */; };
-		C12746542A88A12D00F200CC /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12746532A88A12D00F200CC /* MeetingCell.swift */; };
-		C12746552A88A12D00F200CC /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12746532A88A12D00F200CC /* MeetingCell.swift */; };
-		C17022E82A88B1F300D99700 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17022E72A88B18A00D99700 /* SettingsView.swift */; };
-		C17022E92A88B1F400D99700 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17022E72A88B18A00D99700 /* SettingsView.swift */; };
-		C17022EB2A88B7FE00D99700 /* ModePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17022EA2A88B7E000D99700 /* ModePicker.swift */; };
-		C17022EC2A88B7FE00D99700 /* ModePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17022EA2A88B7E000D99700 /* ModePicker.swift */; };
-		C1E2638A27FF55720093A66E /* Meetings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */; };
-		C1E2638B27FF55720093A66E /* Meetings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */; };
+		C18397412B10373100219C67 /* SettingsVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18397402B10373100219C67 /* SettingsVIew.swift */; };
+		C18397432B1038F100219C67 /* MeetingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18397422B1038F100219C67 /* MeetingButton.swift */; };
+		C18397452B1038FE00219C67 /* MeetingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18397442B1038FE00219C67 /* MeetingCardView.swift */; };
+		C18397472B10390D00219C67 /* MeetingEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18397462B10390D00219C67 /* MeetingEditor.swift */; };
+		C18397492B10484C00219C67 /* ZoomMeetingVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18397482B10484C00219C67 /* ZoomMeetingVIew.swift */; };
+		C1B4D2252B0EE08500D56BBD /* MeetingsEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B4D2222B0EE02100D56BBD /* MeetingsEmptyView.swift */; };
+		C1DF6B762B0C6DF40030B9DC /* ZoomMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF6B752B0C6DF40030B9DC /* ZoomMeeting.swift */; };
+		C1DF6B772B0C6DF40030B9DC /* ZoomMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF6B752B0C6DF40030B9DC /* ZoomMeeting.swift */; };
+		C1DF6B792B0C6F550030B9DC /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF6B782B0C6F550030B9DC /* MeetingsView.swift */; };
+		C1DF6B7A2B0C6F550030B9DC /* MeetingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DF6B782B0C6F550030B9DC /* MeetingsView.swift */; };
 		C1E2638C27FF55720093A66E /* MeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637927FF55710093A66E /* MeetingsApp.swift */; };
 		C1E2638D27FF55720093A66E /* MeetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637927FF55710093A66E /* MeetingsApp.swift */; };
-		C1E2639027FF55720093A66E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637B27FF55710093A66E /* Persistence.swift */; };
-		C1E2639127FF55720093A66E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2637B27FF55710093A66E /* Persistence.swift */; };
 		C1E2639227FF55720093A66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E2637C27FF55720093A66E /* Assets.xcassets */; };
 		C1E2639327FF55720093A66E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E2637C27FF55720093A66E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C12746502A889EBC00F200CC /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
-		C12746532A88A12D00F200CC /* MeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
-		C17022E72A88B18A00D99700 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		C17022EA2A88B7E000D99700 /* ModePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModePicker.swift; sourceTree = "<group>"; };
-		C1E2637827FF55710093A66E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		C18397402B10373100219C67 /* SettingsVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVIew.swift; sourceTree = "<group>"; };
+		C18397422B1038F100219C67 /* MeetingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingButton.swift; sourceTree = "<group>"; };
+		C18397442B1038FE00219C67 /* MeetingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCardView.swift; sourceTree = "<group>"; };
+		C18397462B10390D00219C67 /* MeetingEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingEditor.swift; sourceTree = "<group>"; };
+		C18397482B10484C00219C67 /* ZoomMeetingVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomMeetingVIew.swift; sourceTree = "<group>"; };
+		C1B4D2222B0EE02100D56BBD /* MeetingsEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsEmptyView.swift; sourceTree = "<group>"; };
+		C1DF6B752B0C6DF40030B9DC /* ZoomMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomMeeting.swift; sourceTree = "<group>"; };
+		C1DF6B782B0C6F550030B9DC /* MeetingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsView.swift; sourceTree = "<group>"; };
 		C1E2637927FF55710093A66E /* MeetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsApp.swift; sourceTree = "<group>"; };
-		C1E2637B27FF55710093A66E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		C1E2637C27FF55720093A66E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1E2638127FF55720093A66E /* MeetingLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1E2638727FF55720093A66E /* MeetingLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +58,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C1B4D2232B0EE04D00D56BBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF6B752B0C6DF40030B9DC /* ZoomMeeting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1B4D2242B0EE05600D56BBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1DF6B782B0C6F550030B9DC /* MeetingsView.swift */,
+				C18397462B10390D00219C67 /* MeetingEditor.swift */,
+				C18397442B1038FE00219C67 /* MeetingCardView.swift */,
+				C18397422B1038F100219C67 /* MeetingButton.swift */,
+				C1B4D2222B0EE02100D56BBD /* MeetingsEmptyView.swift */,
+				C18397402B10373100219C67 /* SettingsVIew.swift */,
+				C18397482B10484C00219C67 /* ZoomMeetingVIew.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		C1E2637127FF55710093A66E = {
 			isa = PBXGroup;
 			children = (
@@ -71,14 +93,10 @@
 		C1E2637627FF55710093A66E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C17022EA2A88B7E000D99700 /* ModePicker.swift */,
-				C17022E72A88B18A00D99700 /* SettingsView.swift */,
-				C12746502A889EBC00F200CC /* MeetingsView.swift */,
-				C12746532A88A12D00F200CC /* MeetingCell.swift */,
-				C1E2637B27FF55710093A66E /* Persistence.swift */,
+				C1B4D2242B0EE05600D56BBD /* View */,
+				C1B4D2232B0EE04D00D56BBD /* Model */,
 				C1E2637927FF55710093A66E /* MeetingsApp.swift */,
 				C1E2637C27FF55720093A66E /* Assets.xcassets */,
-				C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -198,13 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E2638A27FF55720093A66E /* Meetings.xcdatamodeld in Sources */,
-				C1E2639027FF55720093A66E /* Persistence.swift in Sources */,
+				C18397412B10373100219C67 /* SettingsVIew.swift in Sources */,
+				C1B4D2252B0EE08500D56BBD /* MeetingsEmptyView.swift in Sources */,
+				C1DF6B792B0C6F550030B9DC /* MeetingsView.swift in Sources */,
+				C18397452B1038FE00219C67 /* MeetingCardView.swift in Sources */,
+				C18397432B1038F100219C67 /* MeetingButton.swift in Sources */,
+				C1DF6B762B0C6DF40030B9DC /* ZoomMeeting.swift in Sources */,
+				C18397472B10390D00219C67 /* MeetingEditor.swift in Sources */,
+				C18397492B10484C00219C67 /* ZoomMeetingVIew.swift in Sources */,
 				C1E2638C27FF55720093A66E /* MeetingsApp.swift in Sources */,
-				C17022E82A88B1F300D99700 /* SettingsView.swift in Sources */,
-				C17022EB2A88B7FE00D99700 /* ModePicker.swift in Sources */,
-				C12746512A889EBC00F200CC /* MeetingsView.swift in Sources */,
-				C12746542A88A12D00F200CC /* MeetingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,13 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E2638B27FF55720093A66E /* Meetings.xcdatamodeld in Sources */,
-				C1E2639127FF55720093A66E /* Persistence.swift in Sources */,
+				C1DF6B7A2B0C6F550030B9DC /* MeetingsView.swift in Sources */,
+				C1DF6B772B0C6DF40030B9DC /* ZoomMeeting.swift in Sources */,
 				C1E2638D27FF55720093A66E /* MeetingsApp.swift in Sources */,
-				C17022E92A88B1F400D99700 /* SettingsView.swift in Sources */,
-				C17022EC2A88B7FE00D99700 /* ModePicker.swift in Sources */,
-				C12746522A889EBC00F200CC /* MeetingsView.swift in Sources */,
-				C12746552A88A12D00F200CC /* MeetingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -334,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -348,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 82239ZX62H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -358,7 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 82239ZX62H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -389,7 +405,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.camgrigo.MeetingLink;
 				PRODUCT_NAME = MeetingLink;
@@ -455,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.camgrigo.MeetingLink;
 				PRODUCT_NAME = MeetingLink;
@@ -496,19 +512,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C1E2637727FF55710093A66E /* Meetings.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C1E2637827FF55710093A66E /* Shared.xcdatamodel */,
-			);
-			currentVersion = C1E2637827FF55710093A66E /* Shared.xcdatamodel */;
-			path = Meetings.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C1E2637227FF55710093A66E /* Project object */;
 }
